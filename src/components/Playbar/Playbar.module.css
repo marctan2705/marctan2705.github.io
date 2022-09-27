@@ -1,0 +1,111 @@
+.playbar{
+    height: 82px;
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    opacity: 1;
+    width: 100%;
+    box-shadow: 0px 1px 1px #888, 0px 1px 5px #888;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+    height: 80%;
+    opacity: 0.9;
+}
+
+.next{
+    height: 45%;
+    transform: scaleX(-1);
+    opacity: 0.8;
+}
+
+.prev{
+    height: 45%;
+    opacity: 0.8;
+}
+
+.album{
+    width: 25%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.additional{
+    width: 25%;
+}
+
+.art{
+    height: 80%;
+    margin-left: 20px;
+}
+
+.info{
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.song{
+    font-size: 18px;
+}
+
+.artist{
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.player{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tracker{
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trackbar{
+    width: 80%;
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 20%;
+    position: relative;
+}
+
+.progressbar{
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    top:25%;
+    left: 0;
+    height: 50%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.additional{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1.5vw;
+    font-size: 1.1vw;
+}

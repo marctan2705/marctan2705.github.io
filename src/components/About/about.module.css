@@ -1,0 +1,123 @@
+.page{
+    height: calc(100vh - 82px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header{
+    height: calc(100vh - 56px);
+    background-color: black;
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.5rem;
+    color: white;
+    opacity: 80%;
+}
+
+.about{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    background-color: #1DB954;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.pinkbox{
+    background-color: pink;
+    /* background-image: url(../../Assets/mountain.png); */
+    z-index: 2;
+    height: 21vw;
+    width: 21vw;
+    position: absolute;
+    left: -10vw;
+    top: calc(50% - 10vw);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 50%;
+    border: 12px solid black;
+    overflow: hidden;
+    animation: record 20s linear infinite;
+    cursor: pointer;
+}
+
+.album{
+    height:100%;
+    animation: record 20s 1s linear infinite;
+    animation-delay: 0ms;
+    transition: 1s;
+}
+
+.album1{
+    height:100%;
+    animation: record 20s 1s linear infinite;
+    animation-delay: 0ms;
+    transition: 1s;
+}
+
+.album2{
+    height:100%;
+    animation: record 20s 1s linear infinite;
+    animation-delay: 0ms;
+    transition: 1s;
+}
+
+.fadeOut {
+    animation: fadeOut 1s;
+  }
+  
+.fadeIn {
+    animation: fadeIn 1s;
+}
+
+@keyframes record {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.lyrics{
+    width: calc(100% - 30vw);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    font-size: 1.2vw;
+    line-height: 130%;
+    font-weight: bold;
+    color: white;
+    line-height: 27px;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.h1{
+    color: #282c34;
+}

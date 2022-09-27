@@ -1,0 +1,148 @@
+.data{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(rgb(255, 51, 245),rgb(0,0,0,0), black); */
+    overflow: scroll;
+    padding-bottom: 7vh;
+}
+
+.info{
+        width: 80%;
+        display: flex;
+        padding-top: 5vh;
+
+}
+
+.img{
+    height: 25vh;
+    width: 25vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.subheader{
+    font-size: 18px;
+    font-weight: bold;
+    /* opacity: 0.8; */
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: left;
+}
+
+.artist{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+}
+
+.dp{
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+.bar{
+    display: flex;
+    width: 80%;
+    margin-top: 5vh;
+    align-items: flex-end;
+    justify-content: start;
+}
+
+.bar2{
+    display: flex;
+    width: 80%;
+    margin-top: 5vh;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.mainimage{
+    height: 60px;
+}
+
+.ld{
+    height: 50px;
+    margin-left:1%;
+}
+
+.description{
+    width: 80%;
+    text-align: justify;
+    margin-top: 3vh;
+    opacity: 80%;
+}
+
+.data::-webkit-scrollbar {
+    display: none;
+  }
+
+.first{
+    width: 10%;
+    text-align: start;
+}
+.subsequent{
+    width: 30%;
+    text-align: start;
+}
+
+.barhr{
+    width: 80%;
+}
+
+.row{
+    display: flex;
+    width: 80%;
+    margin-top: 1vh;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.rowlast{
+    display: flex;
+    width: 80%;
+    margin-top: 1vh;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+    margin-bottom: 6vh;
+}
+
+.back{
+    height: 6vh;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.back:hover{
+    height: 6vh;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.backrow{
+    margin-top: 3vh;
+    width: 80%;
+    display: flex;
+}

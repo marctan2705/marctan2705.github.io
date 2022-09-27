@@ -1,0 +1,87 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 41px);
+    border-left: none;
+}
+
+.greenbox{
+    
+    /* background-color: #1DB954; */
+    height: 30vw;
+    width: 30vw;
+    display: flex;
+    color: #1DB954;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.name{
+    font-weight: bold;
+    color: pink;
+}
+.name:hover{
+    animation: jump 0.5s linear infinite;
+}
+
+.title{
+    font-size: 3vw;
+    font-weight: bold;
+    animation: swap 10s linear infinite;
+}
+
+.description{
+    font-size: 1vw;
+    color: white;
+}
+.pp{
+    height: 30vw;
+    width: 30vw;
+}
+.pinkbox{
+    background-color: #1DB954;
+    margin-right: 70px;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+@keyframes jump {
+    0%{
+        transform:translateY(0px)
+    }
+    50%{
+        transform:translateY(2px)
+    }
+    100%{
+        transform:translateY(0px)
+    }
+}
+
+@keyframes swap {
+    0%{
+        color: #1DB954;
+    }
+    25%{
+        color: rgb(244, 244, 102);
+    }
+    75%{
+        color: rgb(109, 227, 251);
+    }
+    100%{
+        color: #1DB954;
+    }
+}
+
+.link{
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(244, 244, 102);
+}
+
+.selection{
+    margin-top:2vh;
+}
