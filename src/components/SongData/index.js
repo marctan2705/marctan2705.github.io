@@ -9,6 +9,7 @@ function SongData(props) {
     const project = props.project;
     var i = 0;
     return ( 
+        <div className={classes.page2}>
         <div className={classes.data} style={{background: project.color}}>
             <div className={classes.backrow}>
             <img src = {back} className={classes.back} onClick={props.handleClick}/>
@@ -54,7 +55,7 @@ function SongData(props) {
                     }
                 )
             }
-        
+        </div>
         </div>
      );
 }

@@ -147,3 +147,70 @@
     width: 80%;
     display: flex;
 }
+
+@media (max-width: 600px) {
+    .data{
+        color: white;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background: linear-gradient(rgb(255, 51, 245),rgb(0,0,0,0), black); */
+        overflow: scroll;
+        padding-bottom: 7vh;
+        overflow: scroll;
+    }
+    .info{
+        width: 80%;
+        display: flex;
+        padding-top: 5vh;
+        flex-direction: column;
+        align-items: center;
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            margin-left: 0px;
+            margin-top: 2vh;
+        }
+        
+        .subheader{
+            font-size: 18px;
+            font-weight: bold;
+            /* opacity: 0.8; */
+        }
+        
+        .title{
+            font-size: 50px;
+            font-weight: bold;
+            margin: 0px 0px 10px 0px;
+            display: flex;
+            justify-content: left;
+        }
+        
+        .artist{
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .dp{
+            height: 0vh;
+            border-radius: 50%;
+        
+        }
+        .bar{
+            display: flex;
+            width: 80%;
+            margin-top: 5vh;
+            align-items: flex-end;
+            justify-content: center;
+        }
+    .page2{
+        height: 120vh;
+        padding-bottom: 10vh;
+    }
+}

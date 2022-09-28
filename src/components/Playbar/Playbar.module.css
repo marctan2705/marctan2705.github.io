@@ -6,10 +6,11 @@
     background-color: black;
     color: white;
     opacity: 1;
-    width: 100%;
+    width: 100vw;
     box-shadow: 0px 1px 1px #888, 0px 1px 5px #888;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .top{
@@ -20,23 +21,23 @@
 }
 
 .play{
-    height: 80%;
+    height: 40px;
     opacity: 0.9;
 }
 
 .next{
-    height: 45%;
+    height: 25px;
     transform: scaleX(-1);
     opacity: 0.8;
 }
 
 .prev{
-    height: 45%;
+    height: 25px;
     opacity: 0.8;
 }
 
 .album{
-    width: 25%;
+    width: 30%;
     display: flex;
     align-items: center;
 
@@ -49,7 +50,7 @@
 }
 
 .art{
-    height: 80%;
+    height: 82px;
     margin-left: 20px;
 }
 
@@ -63,11 +64,12 @@
 }
 
 .song{
-    font-size: 18px;
+    font-size: 2.5vh;
+    font-weight: bold;
 }
 
 .artist{
-    font-size: 10px;
+    font-size: 1.2vh;
     opacity: 0.7;
 }
 
@@ -106,6 +108,123 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 1.5vw;
+    padding-right: 3vw;
     font-size: 1.1vw;
+}
+
+@media (max-width: 600px){
+    .playbar{
+        height: 82px;
+        z-index: 3;
+        position: fixed;
+        bottom: 0;
+        background-color: black;
+        color: white;
+        opacity: 1;
+        width: 100vw;
+        box-shadow: 0px 1px 1px #888, 0px 1px 5px #888;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+    .top{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .play{
+        height: 4.5vh;
+        opacity: 0.9;
+    }
+    
+    .next{
+        height: 2vh;
+        transform: scaleX(-1);
+        opacity: 0.8;
+    }
+    
+    .prev{
+        height: 2vh;
+        opacity: 0.8;
+    }
+    
+    .album{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    
+    }
+    
+    
+    
+    .additional{
+        width: 25%;
+    }
+    
+    .art{
+        height: 10vw;
+        margin-left: 2vw;
+    }
+    
+    .info{
+        width: 60%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    
+    .song{
+        font-size: 2.3vh;
+        font-weight: bold;
+    }
+    
+    .artist{
+        font-size: 0.8vh;
+        opacity: 0.7;
+    }
+    
+    .player{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tracker{
+        height:20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .trackbar{
+        width: 80%;
+        background-color: rgb(255, 255, 255, 0.5);
+        height: 20%;
+        position: relative;
+    }
+    
+    .progressbar{
+        position: absolute;
+        background-color: white;
+        z-index: 5;
+        top:25%;
+        left: 0;
+        height: 50%;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    
+    .additional{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 3vw;
+        font-size: 1.1vh;
+    }
 }

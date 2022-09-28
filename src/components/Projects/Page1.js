@@ -107,6 +107,9 @@ function Page1(props) {
                     <div>May 2022 - Aug 2022</div>
                 </div>
             </div>
+
+        </div>
+        <div className={classes.row2}>
             <div className={classes.industry}>
             <img className={classes.industryPicture} src={ga} />
                 <img className={classes.industryPictureMini} src={ga} />
@@ -118,8 +121,6 @@ function Page1(props) {
                     <div>May 2022 - Aug 2022</div>
                 </div>
             </div>
-        </div>
-        <div className={classes.row2}>
             <div className={classes.industry}>
                 <img className={classes.industryPicture} src={esg} />
                 <img className={classes.industryPictureMini} src={esg} />

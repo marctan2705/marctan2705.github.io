@@ -84,4 +84,66 @@
 
 .selection{
     margin-top:2vh;
+    font-size: 1vw;
+}
+
+@media (max-width: 600px) {
+    .page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(90vh - 41px);
+        border-left: none;
+        flex-direction: column;
+    }
+    .greenbox{
+    
+        /* background-color: #1DB954; */
+        width: 80vw;
+        display: flex;
+        color: #1DB954;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        margin-top: 15vh;
+    }
+    .pp{
+        height: 30vh;
+        width: 30vh;
+    }
+    .pinkbox{
+        background-color: #1DB954;
+        height: 28vh;
+        width: 28vh;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 0;
+    }
+    .title{
+        font-size: 3.1vh;
+        font-weight: bold;
+        animation: swap 10s linear infinite;
+        text-align: left;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        text-align: justify;
+    }
+    
+    .description{
+        font-size: 1.5vh;
+        color: white;
+        text-align: justify;
+    }
+    .name{
+        font-weight: bold;
+        color: pink;
+        font-size: 3vh;
+    }
+    .selection{
+        margin-top:2vh;
+        font-size: 1.5vh;
+    }
+    
+
 }

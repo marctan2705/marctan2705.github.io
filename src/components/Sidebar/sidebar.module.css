@@ -37,3 +37,48 @@
 .option:hover{
     opacity: 1;
 }
+
+@media (max-width: 600px) {
+    .sidebar{
+        width: 100vw;
+        position:fixed;
+        left: 0;
+        top: 0;
+        height:calc(10vh);
+        background-color: black;
+        box-shadow: 0px 0px 0px rgb(97, 97, 97), 0.5px 0px 2px rgb(96, 96, 96);
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 30%;
+        margin-top:10px;
+    }
+    
+    .options{
+        color: white;
+        font-weight: bold;
+        font-size: 2vh;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 80%;
+        margin-top:1vh;
+        height: 18%;
+    }
+    
+    .option{
+        opacity: 0.8;
+        cursor: pointer;
+        width: 33%;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+    }
+    
+    .option:hover{
+        opacity: 1;
+    }
+}
