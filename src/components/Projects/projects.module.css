@@ -1,8 +1,9 @@
 .page{
-    height: calc(100vh - 82px);
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 2vw;
+    height: calc(100vh - 82px);
 }
 .title{
     height: calc(100vh - 82px);
@@ -32,6 +33,7 @@
     flex-direction: column;
     align-items: flex-start;
     overflow: scroll;
+
 }
 .list::-webkit-scrollbar {
     display: none;
@@ -39,32 +41,34 @@
 
 .newhits{
     margin-top: 60px;
-    margin-left: 20px;
+    margin-left: 3vw;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 3vw;
 }
 
 .row{
-    height: 100px;
-    width: 100%;
+    height: 5.5vw;
+    width: 93%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 2vh;
+    margin-left: 3vw ;
 }
 .row2{
-    height: 500px;
-    width: 100%;
+    height: 25vw;
+    width: 96%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 3vh;
+    margin-bottom: 1vh;
+    margin-left: 3vw;
 }
 .song{
     width: 35vw;
-    height: 5.5vw;
+    height: 5vw;
     background-color: rgb(148, 147, 147, 0.25);
-    border-radius: 10px;
+    border-radius: 1vw;
     display: flex;
     overflow: hidden;
     align-items: center;
@@ -83,7 +87,7 @@
 
 .song2{
     width: 35vw;
-    height: 5.5vw;
+    height: 5vw;
     background-color: black(148, 147, 147, 0.3);
     border-radius: 10px;
     display: flex;
@@ -100,7 +104,7 @@
 .name{
     margin-left: 10px;
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
 }
 
 .banner{
@@ -133,6 +137,7 @@
     border-radius: 10px;
     position: relative;
     transition: 1s;
+    margin-right: 5vw;
 }
 
 .industry:hover{

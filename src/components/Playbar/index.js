@@ -3,7 +3,7 @@ import play from "../../Assets/Play.png"
 import prev from "../../Assets/prev.png"
 import mtan from "../../Assets/mtan.jpeg"
 import { useEffect, useState } from "react"
-function Playbar() {
+function Playbar(props) {
     const [scrollPosition, setScrollPosition] = useState(0);
     const handleScroll = () => {
         const position = window.pageYOffset;
@@ -34,7 +34,7 @@ function Playbar() {
             <div className={classes.player}>
                 <div className={classes.top}>
                     <img className={classes.prev} src={prev} />
-                    <img className={classes.play} src={play} />
+                    <img className={classes.play} onClick={props.handleClick} src={play} />
                     <img className={classes.next} src={prev} />
                 </div>
                 <div className={classes.tracker}>

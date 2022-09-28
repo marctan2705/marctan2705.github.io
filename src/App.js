@@ -24,10 +24,14 @@ function App() {
     console.log(ref3)
     ref3.current?.scrollIntoView({behavior: 'smooth'});
   };
+  const handleClick5 = () => {
+    console.log(ref3)
+    ref3.current?.scrollIntoView({behavior: 'smooth', duration: 5000});
+  };
   return (
     <div className="App">
       {/* <Navbar /> */}
-      <Playbar />
+      <Playbar handleClick={handleClick5}/>
       <div className='page'>
         <Sidebar handleClick={handleClick} handleClick2={handleClick2} handleClick3={handleClick3}/>
         <div className='content'>

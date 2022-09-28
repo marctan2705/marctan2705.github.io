@@ -12,7 +12,7 @@ function Sidebar(props) {
                     About
                 </a>
                 <a className={classes.option} onClick={props.handleClick3}>
-                    Projects
+                    Experience
                 </a>
             </div>
         </div>
