@@ -104,7 +104,7 @@ const list = [
         role:"Full Stack Developer & Product Manager",
         image:Excelerate,
         color: "linear-gradient(rgba(256, 256, 256, 0.5),rgb(0,0,0,0), black)",
-        link: "https://parku-cz2006.web.app/",
+        link: "https://github.com/marctan2705/Excelerate",
         description: "Platform for users to share their internship experiences, resumes, interview tips with other users. I am currently developing the entire website from scratch using a MERN framework. This project is still in progress.",
         tech: [
             {
