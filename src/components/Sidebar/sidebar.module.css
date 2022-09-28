@@ -26,12 +26,14 @@
     justify-content: space-around;
     width: 80%;
     margin-top:30px;
-    height: 18%;
+    height: 25%;
 }
 
 .option{
     opacity: 0.8;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 .option:hover{
@@ -73,9 +75,10 @@
     .option{
         opacity: 0.8;
         cursor: pointer;
-        width: 33%;
+        width: 25%;
         border-right: 1px solid gray;
         border-left: 1px solid gray;
+        font-size: 1.3vh;
     }
     
     .option:hover{

@@ -1,5 +1,6 @@
 import classes from "./sidebar.module.css"
 import logo from "../../Assets/Group 1.png"
+import Resume from "../../Assets/Marcus Tan - SWE Resume.pdf"
 function Sidebar(props) {
     return ( 
         <div className={classes.sidebar}>
@@ -13,6 +14,9 @@ function Sidebar(props) {
                 </a>
                 <a className={classes.option} onClick={props.handleClick3}>
                     Experience
+                </a>
+                <a className={classes.option} href={Resume} download>
+                    Resume
                 </a>
             </div>
         </div>
