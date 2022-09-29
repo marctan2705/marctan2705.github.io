@@ -107,6 +107,7 @@
         text-align: left;
         align-items: center;
         margin-top: 15vh;
+        height: 15vw;
     }
     .pp{
         height: 30vh;
@@ -119,6 +120,7 @@
         border-radius: 50%;
         overflow: hidden;
         margin-right: 0;
+        margin-top: 3vh;
     }
     .title{
         font-size: 3.1vh;
@@ -139,6 +141,7 @@
         font-weight: bold;
         color: pink;
         font-size: 3vh;
+        text-align: justify;
     }
     .selection{
         margin-top:2vh;
