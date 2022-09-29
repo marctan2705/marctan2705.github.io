@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2vw;
-    height: calc(100vh - 82px);
+;
 }
 .title{
     height: calc(100vh - 82px);

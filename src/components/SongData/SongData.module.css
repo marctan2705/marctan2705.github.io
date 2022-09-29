@@ -149,6 +149,9 @@
 }
 
 @media (max-width: 600px) {
+    .content{
+        padding-bottom: 10vh;
+    }
     .data{
         color: white;
         width: 100vw;
@@ -211,6 +214,6 @@
         }
     .page2{
         height: 120vh;
-        padding-bottom: 10vh;
+        padding-bottom: 250px;
     }
 }
