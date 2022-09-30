@@ -15,7 +15,7 @@ function Sidebar(props) {
                 <a className={classes.option} onClick={props.handleClick3}>
                     Experience
                 </a>
-                <a className={classes.option} href={Resume} download>
+                <a className={classes.option} href="https://drive.google.com/file/d/1X4xNSUdZGlYMpDPd5qmK-Vg8XH8D747i/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     Resume
                 </a>
             </div>
