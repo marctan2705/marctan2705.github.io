@@ -104,7 +104,7 @@ function Page1(props) {
                 </div>
                 <div  className={classes.industrySubTitle}>
                     RSM
-                    <div>May 2022 - Aug 2022</div>
+                    <div>Dec 2021 - Jan 2021</div>
                 </div>
             </div>
 
@@ -118,7 +118,7 @@ function Page1(props) {
                 </div>
                 <div  className={classes.industrySubTitle}>
                     Global Angle/ AAIC
-                    <div>May 2022 - Aug 2022</div>
+                    <div>May 2021 - Aug 2021</div>
                 </div>
             </div>
             <div className={classes.industry}>
@@ -129,7 +129,7 @@ function Page1(props) {
                 </div>
                 <div  className={classes.industrySubTitle}>
                     Enterprise Singapore Group
-                    <div>May 2022 - Aug 2022</div>
+                    <div>May 2020 - Aug 2020</div>
                 </div>
             </div>
             <div className={classes.industry}>
